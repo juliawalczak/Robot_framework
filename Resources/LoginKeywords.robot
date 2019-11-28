@@ -19,6 +19,7 @@ Enter Password
 
 Click SignIn
     click button  ${btn_signIn}
+    sleep  3
 
 Verify Succesfull Login
     title should be  Find a Flight: Mercury Tours:
